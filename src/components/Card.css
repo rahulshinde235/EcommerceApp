@@ -1,0 +1,96 @@
+.card-container {
+  width: 80vw;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -8px 2px 44px 5px rgba(70, 102, 255, 0.77);
+}
+.left-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.left-price h2 {
+  text-decoration: underline;
+}
+.left-price h2,
+p {
+  text-transform: uppercase;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+}
+.right-container p {
+  text-transform: none;
+  font-style: italic;
+}
+.right-container button {
+  all: unset;
+  width: 50%;
+  height: 30%;
+  background-color: #c1e1c1;
+  color: gray;
+  border-radius: 5px;
+  outline: 2px solid darkorchid;
+  outline-offset: 2px;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 0 auto;
+  margin-left: 10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.form label {
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form input {
+  all: unset;
+  border: 2px solid black;
+  height: 2rem;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 400px;
+}
+.form textarea {
+  all: unset;
+  border: 2px solid black;
+  height: 5rem;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 400px;
+}
+
+.form button {
+  all: unset;
+  border: 2px solid black;
+  background: #eee;
+  height: 2rem;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  width: 400px;
+}
+.close-btn {
+  all: unset;
+  border: 2px solid black;
+  background: #eee;
+  height: 2rem;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-left: 4%;
+  width: 400px;
+}

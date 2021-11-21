@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.navbardark {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: #bbbfca;
+}
+
+.navbar-left {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-right {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper span {
+  position: absolute;
+  top: -14px;
+  right: -12px;
+}
+.wrapper span {
+  border: 1px solid red;
+  background: tomato;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
