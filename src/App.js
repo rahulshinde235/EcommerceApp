@@ -10,11 +10,11 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
           <Route path="/create">
             <Create />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </BrowserRouter>

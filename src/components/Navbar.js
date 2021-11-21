@@ -16,7 +16,7 @@ const Navbar = () => {
     setcartOpen(false);
   };
   return (
-    <div className={`navbar${theme.value}`}>
+    <div className={`navbar ${theme.value}`}>
       <div className="navbar-left">
         <img src={Brand} alt="company logo" width="80px" height="80px" />
         <Link to="/">Products</Link>
