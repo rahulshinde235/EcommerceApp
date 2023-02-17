@@ -23,17 +23,25 @@ const Cart = ({ closeCartHandler }) => {
           src={Close}
           onClick={closeCartHandler}
           style={{ marginRight: "-90%" }}
+          alt="close-icon"
         />
       </div>
       {state.length >= 1 ? (
         state.map((item) => (
           <div key={item.id} className="cart-card">
+            <div style={{width: "40%"}}>
             <h2>
               Product Name:
-              <br /> {item.title}
             </h2>
-            <p>Price:{item.price} ₹</p>
-            <button onClick={() => dispatch(deleteProduct(item.id))}>
+            <h2 style={{fontWeight: "bolder"}}>
+            {item.title}
+            </h2>
+            </div>
+            <p>Price: {item.price} ₹</p>
+            <button onClick={() => dispatch(deleteProduct(item.id))} style={{
+              padding: "0.5rem",
+              fontSize: "12px"
+            }}>
               Delete Item
             </button>
           </div>

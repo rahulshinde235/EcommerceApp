@@ -1,0 +1,19 @@
+.primaryButton {
+    background-color: var(--button-background-primary);
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.primaryButton :hover {
+   transform: scale(10px);
+}
+.primaryButton .dark {
+    background-color: var(--button-background-dark);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }

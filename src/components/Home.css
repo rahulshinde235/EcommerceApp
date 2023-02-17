@@ -1,6 +1,8 @@
 .home {
-  width: 100%;
-  height: 120%;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-primary);
+  border: 2px solid #393053;
 }
 
 .filters {
@@ -12,8 +14,23 @@
   margin-left: 20px;
 }
 .home.dark {
-  border: 2px solid salmon;
-  width: 100%;
-  height: 120%;
+  border: 2px solid var(--background-dark);
   background: #dcdcdc;
+  background-color: #393053;
+
+}
+
+.sort-button{
+  margin-top: 20px;
+  border: transparent;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.dark-theme-button{
+  fill: white;
 }

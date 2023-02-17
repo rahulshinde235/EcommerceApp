@@ -3,13 +3,12 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  max-height: 15vh;
+  min-height: 10vh;
+  background: rebeccapurple;
 }
 .navbar .dark {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  background: #bbbfca;
+  background: var(--button-addToCart-dark);
 }
 
 .navbar-left {
@@ -39,4 +38,16 @@
   width: 20px;
   height: 20px;
   color: white;
+}
+.brand-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.brand-image{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }

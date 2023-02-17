@@ -68,12 +68,12 @@ const Home = () => {
       })
     );
   };
-  const darkClass = theme.value;
+  const darkClass = theme?.value ?? "";
   return (
     <div className={`home ${darkClass}`}>
       <div className="filters">
-        <img src={Sun} alt="theme changer" onClick={toggleMode} />
-        <button onClick={handleSort} style={{ marginTop: "20px" }}>
+        <img src={Sun} alt="theme changer" onClick={toggleMode} className={`${darkClass === "dark" ? "dark-theme-button": ""}`}/>
+        <button onClick={handleSort} className="sort-button">
           Sort by price
           <img src={Sort} alt="sort products" />
         </button>

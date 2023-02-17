@@ -1,3 +1,22 @@
+:root{
+  --button-background-primary: #126FB5;
+  --button-background-primary-dark: #4ECBFB;
+  --button-background-secondary: #4FE3C1;
+  --button-background-secondary-dark: #74FFE0;
+  --button-addToCart-primary: #FF5436;
+  --button-addToCart-dark: #FE8975;
+  --background-primary: #FFFFFF;
+  --background-dark: #014A7F;
+  --card-background-primary:white;
+  --card-background-secondary:white;
+  --text-primary:#FCFFE7;
+  --text-secondary:#ECE8DD;
+
+
+
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,12 +32,4 @@ code {
 }
 html {
   scroll-behavior: smooth;
-}
-a {
-  background-color: #ffbb91;
-  color: white;
-  padding: 1em 1.5em;
-  border-radius: 8px;
-  text-decoration: none;
-  text-transform: uppercase;
 }

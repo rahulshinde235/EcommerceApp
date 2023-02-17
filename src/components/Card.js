@@ -88,14 +88,14 @@ const Card = ({ products }) => {
             <img
               src={sofaImages[index]}
               alt="Product "
-              style={{ width: "200px", height: "200px" }}
+              className="product-image"
             />
             <div className="left-price">
               <h2>{product.title}</h2>
               <p> Price : {product.price} ₹</p>
 
               <br />
-              <p>Rating :{product.rating}/5</p>
+              <p>Rating : {product.rating}/5</p>
             </div>
             <div className="edit-container">
               <img

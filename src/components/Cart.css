@@ -1,6 +1,6 @@
 .cart {
-  width: 20%;
-  height: 50vw;
+  width: 35%;
+  height: 87vh;
   position: absolute;
   top: 82px;
   right: 1px;
@@ -19,11 +19,14 @@
   width: 90%;
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 0.5rem 1rem;
+
 }
 .cart-card h2,
 p {
   text-transform: none;
   margin: 0 2%;
+  font-size: 1rem;
   font-weight: lighter;
 }
 .cart-card button {
@@ -40,4 +43,21 @@ p {
   border-radius: 50px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow: 20px 20px 40px #bebebe, -20px -20px 40px #ffffff;
+}
+.edit-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+
+.left-price{
+  width: 40%;
+}
+
+.product-image{
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
