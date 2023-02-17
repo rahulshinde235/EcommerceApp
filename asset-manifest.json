@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/EcommerceApp/static/css/main.844ae029.chunk.css",
+    "main.js": "/EcommerceApp/static/js/main.27d44e7a.chunk.js",
+    "main.js.map": "/EcommerceApp/static/js/main.27d44e7a.chunk.js.map",
+    "runtime-main.js": "/EcommerceApp/static/js/runtime-main.ecbe4f82.js",
+    "runtime-main.js.map": "/EcommerceApp/static/js/runtime-main.ecbe4f82.js.map",
+    "static/js/2.dc55282c.chunk.js": "/EcommerceApp/static/js/2.dc55282c.chunk.js",
+    "static/js/2.dc55282c.chunk.js.map": "/EcommerceApp/static/js/2.dc55282c.chunk.js.map",
+    "index.html": "/EcommerceApp/index.html",
+    "static/css/main.844ae029.chunk.css.map": "/EcommerceApp/static/css/main.844ae029.chunk.css.map",
+    "static/js/2.dc55282c.chunk.js.LICENSE.txt": "/EcommerceApp/static/js/2.dc55282c.chunk.js.LICENSE.txt",
+    "static/media/Close.b529109f.svg": "/EcommerceApp/static/media/Close.b529109f.svg",
+    "static/media/brand.c51e4834.jpg": "/EcommerceApp/static/media/brand.c51e4834.jpg",
+    "static/media/cart.0f0cd44e.svg": "/EcommerceApp/static/media/cart.0f0cd44e.svg",
+    "static/media/delete.1129c53a.svg": "/EcommerceApp/static/media/delete.1129c53a.svg",
+    "static/media/edit.4fa02ba3.svg": "/EcommerceApp/static/media/edit.4fa02ba3.svg",
+    "static/media/profile.a296afc6.svg": "/EcommerceApp/static/media/profile.a296afc6.svg",
+    "static/media/sort.b9b517f5.svg": "/EcommerceApp/static/media/sort.b9b517f5.svg",
+    "static/media/sun.587b9f0e.svg": "/EcommerceApp/static/media/sun.587b9f0e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecbe4f82.js",
+    "static/js/2.dc55282c.chunk.js",
+    "static/css/main.844ae029.chunk.css",
+    "static/js/main.27d44e7a.chunk.js"
+  ]
+}
